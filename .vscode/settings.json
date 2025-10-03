@@ -1,0 +1,8 @@
+{
+    "css.completion.scope": "all",
+    "html.completion.attributeDefaultValue": "doublequotes",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "files.associations": {
+      "*.html": "html"
+    }
+  }
