@@ -12,12 +12,17 @@ body {
     grid-column: 2;
     width: 200px;
     height: 100vh;
-    right: 3vw;
+    right: 2vw;
     top: 0;
     padding: 10px;
     background: rgba(230,230,230,0.3);
     overflow-y: auto;
     min-height: 100vh;
+    h2 {
+        padding-top: 60px; /* 为固定导航栏留出空间 */
+        margin-top: -40px; /* 抵消padding的影响 */
+        border-bottom: 3px solid #eee;
+    }
 }
 
 #toc ul {
@@ -44,20 +49,39 @@ body {
 /* 内容区域 */
 #content {
     grid-column: 1;
-    margin-left: 160px;
+    margin-left: 3vw;
     max-width: 800px;
     height: 1000px;
+    h2 {
+        padding-top: 40px; /* 为固定导航栏留出空间 */
+        margin-top: -40px; /* 抵消padding的影响 */
+    }
 }
 
 /* 章节标题样式 */
-h2 {
+h1 {
     padding-top: 60px; /* 为固定导航栏留出空间 */
     margin-top: -40px; /* 抵消padding的影响 */
-    border-bottom: 1px solid #eee;
+    border-bottom: 3px solid #eee;
 }
+
 
 /* 高亮当前章节 */
 .active {
     background: rgba(78, 78, 78, 0.3);
     font-weight: bold;
+}
+
+.imgc{
+    width: 600px;
+    height: auto;
+}
+img{
+    width: 110%;
+    height: 110%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.links{
+    font-size: 16px;
 }
