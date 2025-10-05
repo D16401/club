@@ -28,6 +28,9 @@ body {
 #toc ul {
     list-style: none;
     padding: 0;
+    ul{
+        margin: 0 0 0 20px;
+    }
 }
 
 #toc li {
@@ -49,12 +52,15 @@ body {
 /* 内容区域 */
 #content {
     grid-column: 1;
-    margin-left: 3vw;
+    margin-left: 5vw;
     max-width: 800px;
     height: 1000px;
     h2 {
-        padding-top: 40px; /* 为固定导航栏留出空间 */
+        padding-top: 50px; /* 为固定导航栏留出空间 */
         margin-top: -40px; /* 抵消padding的影响 */
+    }
+    p{
+        font-size: 20px;
     }
 }
 
@@ -62,7 +68,8 @@ body {
 h1 {
     padding-top: 60px; /* 为固定导航栏留出空间 */
     margin-top: -40px; /* 抵消padding的影响 */
-    border-bottom: 3px solid #eee;
+    margin-left: -40px;
+    border-bottom: 5px solid #000000;
 }
 
 
@@ -73,7 +80,7 @@ h1 {
 }
 
 .imgc{
-    width: 40vw;
+    width: 45vw;
     height: auto;
 }
 img{
