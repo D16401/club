@@ -10,7 +10,7 @@ body {
 #toc {
     position: fixed;
     grid-column: 2;
-    width: 200px;
+    width: 20vw;
     height: 100vh;
     right: 2vw;
     top: 0;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .imgc{
-    width: 600px;
+    width: 40vw;
     height: auto;
 }
 img{
