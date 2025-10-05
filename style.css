@@ -52,7 +52,7 @@ body {
 /* 内容区域 */
 #content {
     grid-column: 1;
-    margin-left: 5vw;
+    margin-left: 6vw;
     max-width: 800px;
     height: 1000px;
     h2 {
