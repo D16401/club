@@ -53,13 +53,11 @@ body {
 #content {
     grid-column: 1;
     margin-left: 6vw;
-    padding-left: 1vw;
     max-width: 800px;
     height: 1000px;
     h2 {
         padding-top: 50px; /* 为固定导航栏留出空间 */
         margin-top: -40px; /* 抵消padding的影响 */
-        margin-left: -1vw;
     }
     p{
         font-size: 20px;
@@ -94,14 +92,4 @@ img{
 }
 .links{
     font-size: 16px;
-}
-.videoc{
-    width: 45vw;
-    height: auto;
-}
-video{
-    width: 110%;
-    height: 110%;
-    overflow: hidden;
-    object-fit: cover;  
 }
