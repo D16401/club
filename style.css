@@ -63,6 +63,7 @@ body {
     }
     p{
         font-size: 20px;
+        margin: 3px 0 0 0;
     }
     /* 章节标题样式 */
     h1 {
@@ -99,6 +100,7 @@ img{
     width: 45vw;
     height: auto;
     position: relative;
+    margin: auto 0 20px;
     .videot{
         position: absolute;
         top: 0;
